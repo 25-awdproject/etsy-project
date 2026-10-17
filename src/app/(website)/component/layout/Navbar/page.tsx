@@ -10,8 +10,8 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <header className="border-b border-gray-800 bg-gray-950 text-white">
-      <nav className="mx-auto sticky top-0 z-50 flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4">
+    <header className="border-b sticky top-0 z-50 border-gray-800 bg-gray-950 text-white">
+      <nav className="mx-auto  flex max-w-7xl flex-wrap items-center justify-between gap-4 px-5 py-4">
         <Link href="/" className="text-xl font-bold">
           Etsy<span className="text-orange-400">Analyzer</span>
         </Link>

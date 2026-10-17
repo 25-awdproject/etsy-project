@@ -18,7 +18,7 @@ const pages = [
 
 export default function Sidebar() {
   return (
-    <aside className="w-full shrink-0 border-b border-gray-800 bg-gray-900 p-4 text-white md:w-60 md:border-b-0 md:border-r">
+    <aside className="w-full md:sticky md:top-16 md:h-[calc(100vh-0.5rem)] md:self-start shrink-0 border-b border-gray-800 bg-gray-900 p-4 text-white md:w-60 md:border-b-0 md:border-r">
       <h2 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-400">
         Workspace
       </h2>
