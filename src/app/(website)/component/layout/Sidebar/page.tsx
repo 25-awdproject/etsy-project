@@ -4,8 +4,8 @@ import Link from "next/link";
 const pages = [
   { name: "Dashboard", href: "/" },
   { name: "Shop Analyzer", href: "/shop-analyzer" },
-  { name: "Product Research", href: "/product-research" },
   { name: "Keyword Research", href: "/keyword-research" },
+  { name: "Product Research", href: "/product-research" },
   { name: "Keyword Difficulty", href: "/keyword-difficulty" },
   { name: "Keyword Clustering", href: "/keyword-clustering" },
   { name: "Saved Shops", href: "/saved-shops" },
